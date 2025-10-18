@@ -1,0 +1,91 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Archivos de configuración de entorno
+.env
+*.env
+.env.*
+
+# Archivos de log
+*.log
+
+# Archivos temporales y de sistema
+*.swp
+*.bak
+*.tmp
+*.orig
+*.DS_Store
+Thumbs.db
+
+# Archivos de testing
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.cache
+.pytest_cache/
+
+# Configuraciones de IDEs/editors
+.vscode/
+.idea/
+*.code-workspace
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.eggs/
+.eggs/
+*.manifest
+*.spec
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Distribuciones y binarios
+*.wheel
+*.whl
+*.exe
+*.dll
+*.so
+
+# Archivos generados por herramientas de documentación
+docs/_build/
+
+# Archivos de bases de datos locales
+*.sqlite3
+*.db
+
+# Archivos específicos de PyInstaller
+*.spec
+
+# Otros
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Pyre type checker
+.pyre/
+
+# mypy
+.mypy_cache/
+
+# Pylint
+.pylint.d/
+
+# Bandit
+bandit.yaml
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
